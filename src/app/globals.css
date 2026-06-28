@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --night: #0a0f1e;
+    --turquoise: #00d4aa;
+    --premium: #7c3aed;
+    --gold: #d4a853;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-night-950 text-white antialiased overflow-x-hidden;
+  }
+
+  ::selection {
+    @apply bg-turquoise/30 text-white;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply px-4 sm:px-6 lg:px-8 py-20 lg:py-28;
+  }
+
+  .container-custom {
+    @apply mx-auto max-w-7xl;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-turquoise via-white to-gold bg-clip-text text-transparent;
+  }
+
+  .glass-card {
+    @apply rounded-2xl border border-white/10 bg-white/5 backdrop-blur-xl;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-turquoise to-turquoise-dark px-6 py-3 font-semibold text-night-950 transition-all duration-300 hover:shadow-glow hover:scale-[1.02] active:scale-[0.98] min-h-12 touch-manipulation;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border border-white/20 bg-white/5 px-6 py-3 font-semibold text-white backdrop-blur-sm transition-all duration-300 hover:border-turquoise/50 hover:bg-white/10 min-h-12 touch-manipulation;
+  }
+
+  .btn-gold {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-gold to-gold-dark px-6 py-3 font-semibold text-night-950 transition-all duration-300 hover:shadow-glow-gold hover:scale-[1.02] min-h-12 touch-manipulation;
+  }
+
+  .input-field {
+    @apply w-full rounded-xl border border-white/10 bg-white/5 px-4 py-3 text-base text-white placeholder:text-white/40 transition-colors focus:border-turquoise/50 focus:outline-none focus:ring-2 focus:ring-turquoise/20;
+  }
+
+  .label-field {
+    @apply mb-2 block text-sm font-medium text-white/80;
+  }
+
+  .section-title {
+    @apply font-display text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl;
+  }
+
+  .section-subtitle {
+    @apply mt-4 max-w-2xl text-sm sm:text-base lg:text-lg text-white/60;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
