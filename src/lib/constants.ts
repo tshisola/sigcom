@@ -5,8 +5,8 @@ export const SITE = {
     "SIGCOM accompagne les entreprises, organisations, églises, écoles, artistes et particuliers dans la diffusion en direct de leurs événements avec une solution adaptée à chaque besoin.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://proxmox-ha-verdick.xyz",
   email: "verdickkaj274@gmail.com",
-  phone: "+243 861 420 70",
-  whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "24386142070",
+  phone: "+243 861 432 070",
+  whatsapp: process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "243861432070",
 } as const;
 
 export const INTRO_TEXT =

@@ -76,7 +76,7 @@ RESEND_API_KEY=re_xxxxxxxxxxxxxxxxxxxxxxxx
 RESEND_FROM=SIGCOM <contact@proxmox-ha-verdick.xyz>
 RESERVATION_EMAIL=verdickkaj274@gmail.com
 NEXT_PUBLIC_SITE_URL=https://proxmox-ha-verdick.xyz
-NEXT_PUBLIC_WHATSAPP_NUMBER=24386142070
+NEXT_PUBLIC_WHATSAPP_NUMBER=243861432070
 ```
 
 ## Configuration Resend
@@ -143,5 +143,5 @@ public/
 ## Contact SIGCOM
 
 - **Email :** verdickkaj274@gmail.com
-- **WhatsApp :** +243 861 420 70
+- **WhatsApp :** +243 861 432 070
 - **Site :** https://proxmox-ha-verdick.xyz

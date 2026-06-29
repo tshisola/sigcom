@@ -201,7 +201,7 @@ function ReservationFormInner() {
                 </div>
                 <div>
                   <label className="label-field" htmlFor="phone">Téléphone *</label>
-                  <input id="phone" type="tel" required className="input-field min-h-12" placeholder="+243 861 420 70" value={form.phone} onChange={(e) => updateField("phone", e.target.value)} />
+                  <input id="phone" type="tel" required className="input-field min-h-12" placeholder="+243 861 432 070" value={form.phone} onChange={(e) => updateField("phone", e.target.value)} />
                 </div>
                 <div className="md:col-span-2">
                   <label className="label-field" htmlFor="email">Email *</label>

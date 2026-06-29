@@ -130,7 +130,7 @@ export function buildWhatsAppMessage(data: ReservationFormData): string {
 }
 
 export function getWhatsAppUrl(message: string): string {
-  const number = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "24386142070";
+  const number = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || "243861432070";
   return `https://wa.me/${number}?text=${encodeURIComponent(message)}`;
 }
 
